@@ -12,3 +12,4 @@ crate-type = ["cdylib"]
 [dependencies]
 # access js functions in Rust
 wasm-bindgen = "0.2.63"
+wasm-pack = "0.9.1"
