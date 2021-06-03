@@ -16,7 +16,9 @@
  - $ wasm-pack build
 8. check for webpack build in dist folder
  - $ node_modules/.bin/webpack
-9. To serve correct content-type use wasm-server
+9. copy index.html to dist folder
+ - $ cp index.html ./dist
+10. To serve correct content-type use wasm-server
  - $ node_modules/.bin/wasm-server
 
  http://localhost:3000
